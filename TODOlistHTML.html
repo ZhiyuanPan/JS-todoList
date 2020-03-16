@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        h1{
+            background-color: rgb(111, 230, 251);
+            margin:0px;
+            padding: 60px;
+            text-align: center;
+            color:white;
+            box-shadow: 8px 10px 10px rgb(218, 216, 216);
+        }
+        h2{
+            padding: 20px;
+        }
+        input.littlebutton{
+            background-color: white;
+            margin: 3px;
+            padding: 5px;
+            border-radius: 7px;
+            border: none;
+            color: rgb(121, 121, 121);
+            font-weight: bold;
+        }
+        input.littlebutton{
+            outline: none;
+            margin: 3px;
+        }
+        p.filed{
+            text-align: center;
+            margin: 0px;
+            padding: 35px;
+        }
+        input.addevent{
+            margin: 0px;
+            border-radius: 5px;
+            border: 2px solid rgb(182, 182, 182);
+            width: 30%;
+            height: 25px;
+            padding:3px;
+        }
+        input.addevent:hover{
+            margin: 0px;
+            border-radius: 5px;
+            border: 2px solid rgb(182, 182, 182);
+            width: 30%;
+            height: 25px;
+            padding:3px;
+        }
+        input.addevent:focus{
+            margin: 0px;
+            border-radius: 5px;
+            width: 30%;
+            height: 25px;
+            outline: none;
+            box-shadow: 3px 3px 5px rgb(218, 216, 216);
+        }
+        div.mainbox{
+            padding-top: 0px;
+        }
+        div.minbox1{
+            color: white;
+            width: 35%;
+            margin: 0px;
+            float: left;
+            overflow: hidden;
+            background-color: rgb(255, 52, 52);
+            height: 450px;
+            border-radius: 20px;
+            margin-left: 10%;
+            box-shadow: 10px 10px 5px rgb(218, 216, 216);
+            
+        }
+        div.minbox2{
+            color: white;
+            width: 35%;
+            margin: 0px;
+            float: right;
+            overflow: hidden;
+            background-color: rgb(71, 135, 240);
+            height: 450px;
+            border-radius: 20px;
+            margin-right: 10%;
+            box-shadow: 10px 10px 5px rgb(218, 216, 216);
+            transition-duration: 0.4s;
+        }
+        div li{
+            margin: 3px;
+        }
+        input.submitbutton{
+            background-color: white;
+            padding: 7px;
+            border: 2px solid rgb(182, 182, 182);
+            border-radius: 7px;
+            color: rgb(121, 121, 121);
+            box-shadow: 3px 3px 3px rgb(218, 216, 216);
+            font-weight: bold;
+        }
+        input.submitbutton:hover{
+            outline: none;
+            color: white;
+            background-color:rgb(122, 235, 255);
+            border: 2px solid rgb(122, 235, 255);
+        }
+        input.submitbutton:focus{
+            outline: none;
+        }
+        .footer{
+            height: 80px;
+            position: fixed;
+            bottom: 0px;
+            background-color: rgb(199, 199, 199);
+            width: 100%;
+        }
+    </style>
+</head>
+<body id="body">
+    <h1>练习：JS TODOLIST</h1>
+    <p class="filed"><input class="addevent" type="text" id="submit" value=""> <input class="submitbutton" type="button" value="提交" onclick="jsTODO()"></p>
+    <div class="mainbox"></div>
+        <div class="minbox1">
+            <h2>TODO</h2>   
+            <ul id="TODO">
+            </ul>
+        </div>
+        <div class="minbox2">
+            <h2>Completed</h2> 
+            <ul id="Completed">
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+    
+    
+</body>
+<script defer="true" src="C:\Users\49141\Desktop\TODOlist\TODOLISTjs.js" type="text/javascript"></script>
+</html>
